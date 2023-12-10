@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --watch src/data/questions.json --port 9000"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -22,6 +23,7 @@
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "json-server": "^0.17.4",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }
