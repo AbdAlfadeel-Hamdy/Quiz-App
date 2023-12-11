@@ -103,7 +103,9 @@ const App = () => {
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch('http://localhost:9000/questions');
+        const res = await fetch(
+          'https://codingheroes.io/api-react-course-projects/questions.json'
+        );
         const data = await res.json();
         dispatch({
           type: 'dataReceived',
