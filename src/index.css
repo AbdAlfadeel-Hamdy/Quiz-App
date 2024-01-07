@@ -68,7 +68,7 @@ body {
   justify-content: space-between;
   @media (max-width: 550px) {
     width: 32rem;
-    gap: 3rem;
+    gap: 2.2rem;
   }
   @media (max-width: 350px) {
     width: 24rem;
