@@ -69,6 +69,7 @@ body {
   @media (max-width: 550px) {
     width: 32rem;
     gap: 2.2rem;
+    justify-content: flex-start;
   }
   @media (max-width: 350px) {
     width: 24rem;
