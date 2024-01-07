@@ -1,46 +1,55 @@
-Jonas React Quiz Project
-Overview
-The Jonas React Quiz Project is a simple and customizable quiz application built with React. It allows users to create and take quizzes on various topics.
+# The React Quiz Project
 
-Features
-User Authentication: Users can create accounts, log in, and track their quiz progress.
-Quiz Creation: Admin users can create quizzes with multiple-choice questions.
-Quiz Taking: Users can take quizzes and receive immediate feedback on their performance.
-Score Tracking: Quiz scores are recorded and can be viewed in the user's profile.
-Table of Contents
-Installation
-Usage
-Configuration
-Contributing
-License
-Installation
-Clone the repository:
+## Overview
 
-bash
-Copy code
-git clone https://github.com/yourusername/jonas-react-quiz-project.git
-cd jonas-react-quiz-project
-Install dependencies:
+The React Quiz Project is a simple quiz application built with React and TypeScript. It allows users to take a 15-question quizzes on React concepts.
 
-bash
-Copy code
-npm install
-Set up environment variables:
+## Features
 
-Create a .env file in the project root and add the necessary variables:
+## Features
 
-env
-Copy code
-REACT_APP_API_URL=your_api_url
-REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
-Usage
-Start the development server:
+- **Quiz Taking with Immediate Feedback:** Users can take quizzes and receive instant feedback on their performance.
 
-bash
-Copy code
-npm start
-Open your browser and navigate to http://localhost:3000.
+- **Score Tracking and Progress Bar:** Quiz scores are recorded and displayed on a progress bar, providing a visual representation of the user's performance.
 
-Sign up or log in to start creating or taking quizzes.
+- **Highest Score Recording:** The system records the highest score achieved by the user.
+
+- **Quiz Restart:** Users have the ability to restart the quiz multiple times for practice and improvement.
+
+- **Quiz Timer:** A timer is implemented during the quiz, ensuring a time-bound experience. The quiz automatically closes and finishes, preserving the current score when the timer runs out.
+
+## Technologies
+
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AbdAlfadeel-Hamdy/The-React-Quiz/edit/main/README.md
+   cd The-React-Quiz
+   
+2. Install dependencies:
+   
+    ```bash
+   npm install
+
+## Usage
+
+1. Start the development server:
+
+    ```bash
+   npm run dev
+
+2. Open your browser and navigate to http://localhost:5173.
+
+
+
+   
+
+
