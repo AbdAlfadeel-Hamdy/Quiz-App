@@ -2,9 +2,7 @@
 
 ## Overview
 
-The React Quiz Project is a simple quiz application built with React and TypeScript. It allows users to take a 15-question quizzes on React concepts.
-
-## Features
+The React Quiz Project is a simple quiz application built with React and TypeScript. It allows users to take 15-question quizzes on React concepts.
 
 ## Features
 
