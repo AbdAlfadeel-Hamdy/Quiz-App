@@ -2,7 +2,7 @@
 
 ## Overview
 
-The React Quiz Project is a simple quiz application built with React and TypeScript. It allows users to take 15-question quizzes on React concepts.
+The React Quiz Project is a simple quiz application built with React and TypeScript. It allows users to take a 15-question quiz on React concepts.
 
 ## Features
 
@@ -18,6 +18,15 @@ The React Quiz Project is a simple quiz application built with React and TypeScr
 
 ## Technologies
 
+The React Quiz Project is built using the following technologies:
+
+- **React.js:** A JavaScript library for building user interfaces. The project utilizes React for creating dynamic and responsive quiz components.
+
+- **TypeScript:** A superset of JavaScript that adds static typing to the language. TypeScript enhances code quality and helps catch potential errors during development.
+
+- **JSON-Server:** A simple REST API server that allows you to mock a backend by serving data from a JSON file. In this project, JSON-Server is used to simulate interactions with a backend for quiz data.
+
+- **CSS:** Cascading Style Sheets is used for styling the application, providing a visually appealing and consistent user interface.
 
 ## Table of Contents
 
@@ -45,6 +54,8 @@ The React Quiz Project is a simple quiz application built with React and TypeScr
    npm run dev
 
 2. Open your browser and navigate to http://localhost:5173.
+   
+3. Start taking the quiz. 
 
 
 
