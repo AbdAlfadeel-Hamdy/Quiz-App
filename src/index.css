@@ -52,9 +52,15 @@ body {
   }
 }
 
-/* .main {
+.main {
   width: 50rem;
-} */
+  @media (max-width: 550px) {
+    width: 40rem;
+  }
+  @media (max-width: 350px) {
+    width: 35rem;
+  }
+}
 
 .app-header {
   width: 66rem;
