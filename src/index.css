@@ -44,9 +44,14 @@ body {
 
 .main {
   width: 50rem;
-  @media (max-width: 350px) {
+  @media (max-width: 550px) {
+    max-width: 45rem;
     padding-right: 3rem;
     padding-left: 3rem;
+  }
+  @media (max-width: 350px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -58,11 +63,14 @@ body {
   justify-content: space-between;
   @media (max-width: 550px) {
     width: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
     gap: 3rem;
   }
   @media (max-width: 350px) {
-    width: auto;
     gap: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -80,6 +88,9 @@ img {
   @media (max-width: 550px) {
     width: 8rem;
   }
+  @media (max-width: 350px) {
+    width: 6rem;
+  }
 }
 
 h1 {
@@ -87,6 +98,9 @@ h1 {
   font-size: 5.6rem;
   @media (max-width: 550px) {
     font-size: 4rem;
+  }
+  @media (max-width: 350px) {
+    font-size: 3rem;
   }
 }
 
