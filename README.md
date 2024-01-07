@@ -29,7 +29,7 @@ The React Quiz Project is a simple quiz application built with React and TypeScr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AbdAlfadeel-Hamdy/The-React-Quiz/edit/main/README.md
+   git clone https://github.com/AbdAlfadeel-Hamdy/The-React-Quiz.git
    cd The-React-Quiz
    
 2. Install dependencies:
