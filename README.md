@@ -16,6 +16,8 @@ The React Quiz Project is a simple quiz application built with React and TypeScr
 
 - **Quiz Timer:** A timer is implemented during the quiz, ensuring a time-bound experience. The quiz automatically closes and finishes, preserving the current score when the timer runs out.
 
+- **Responsive for All Screens:** Enjoy a seamless quiz-taking experience on any device with responsive design ensuring optimal performance across various screen sizes.
+
 ## Technologies
 
 The React Quiz Project is built using the following technologies:
