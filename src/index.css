@@ -41,12 +41,10 @@ body {
   align-items: center;
   justify-content: center;
   @media (max-width: 550px) {
-    max-width: 550px;
     padding-right: 3rem;
     padding-left: 3rem;
   }
   @media (max-width: 350px) {
-    max-width: 350px;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -55,10 +53,10 @@ body {
 .main {
   width: 50rem;
   @media (max-width: 550px) {
-    width: 40rem;
+    width: 32rem;
   }
   @media (max-width: 350px) {
-    width: 35rem;
+    width: 24rem;
   }
 }
 
@@ -69,10 +67,11 @@ body {
   align-items: center;
   justify-content: space-between;
   @media (max-width: 550px) {
-    width: auto;
+    width: 32rem;
     gap: 3rem;
   }
   @media (max-width: 350px) {
+    width: 24rem;
     gap: 1.5rem;
   }
 }
