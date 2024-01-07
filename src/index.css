@@ -53,10 +53,10 @@ body {
 .main {
   width: 50rem;
   @media (max-width: 550px) {
-    width: 32rem;
+    width: auto;
   }
   @media (max-width: 350px) {
-    width: 24rem;
+    width: auto;
   }
 }
 
@@ -67,11 +67,12 @@ body {
   align-items: center;
   justify-content: space-between;
   @media (max-width: 550px) {
-    width: 32rem;
+    width: auto;
     gap: 3rem;
   }
   @media (max-width: 350px) {
-    width: 24rem;
+    width: auto;
+
     gap: 2rem;
   }
 }
