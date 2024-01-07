@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+Jonas React Quiz Project
+Overview
+The Jonas React Quiz Project is a simple and customizable quiz application built with React. It allows users to create and take quizzes on various topics.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+User Authentication: Users can create accounts, log in, and track their quiz progress.
+Quiz Creation: Admin users can create quizzes with multiple-choice questions.
+Quiz Taking: Users can take quizzes and receive immediate feedback on their performance.
+Score Tracking: Quiz scores are recorded and can be viewed in the user's profile.
+Table of Contents
+Installation
+Usage
+Configuration
+Contributing
+License
+Installation
+Clone the repository:
 
-Currently, two official plugins are available:
+bash
+Copy code
+git clone https://github.com/yourusername/jonas-react-quiz-project.git
+cd jonas-react-quiz-project
+Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+Copy code
+npm install
+Set up environment variables:
 
-## Expanding the ESLint configuration
+Create a .env file in the project root and add the necessary variables:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+env
+Copy code
+REACT_APP_API_URL=your_api_url
+REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+Usage
+Start the development server:
 
-- Configure the top-level `parserOptions` property like this:
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Sign up or log in to start creating or taking quizzes.
